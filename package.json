@@ -1,0 +1,25 @@
+{
+  "name": "ambraisenberg",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aisenberg1984/ambraisenberg.git"
+  },
+  "author": "Ambra Isenberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aisenberg1984/ambraisenberg/issues"
+  },
+  "homepage": "https://github.com/aisenberg1984/ambraisenberg#readme",
+  "dependencies": {
+    "nuxt": "^2.14.6"
+  }
+}
