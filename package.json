@@ -1,25 +1,28 @@
 {
-  "name": "ambraisenberg",
+  "name": "hello",
   "version": "1.0.0",
-  "description": "personal website",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "generate": "nuxt generate",
-    "start": "nuxt start"
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.5"
+  },
+  "devDependencies": {},
+  "description": "## Build Setup",
+  "main": "nuxt.config.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aisenberg1984/ambraisenberg.git"
   },
-  "author": "Ambra Isenberg",
+  "author": "Ambra",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aisenberg1984/ambraisenberg/issues"
   },
-  "homepage": "https://github.com/aisenberg1984/ambraisenberg#readme",
-  "dependencies": {
-    "nuxt": "^2.14.6"
-  }
+  "homepage": "https://github.com/aisenberg1984/ambraisenberg#readme"
 }
