@@ -28,7 +28,7 @@ html {
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
+  margin: 10px;
 }
 
 .button--green {
@@ -38,6 +38,7 @@ html {
   color: #3b8070;
   text-decoration: none;
   padding: 10px 30px;
+  margin-left: 15px;
 }
 
 .button--green:hover {

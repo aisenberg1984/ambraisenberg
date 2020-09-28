@@ -1,5 +1,5 @@
 {
-  "name": "hello",
+  "name": "ambraisenberg",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.5"
+    "nuxt": "^2.14.6"
   },
   "devDependencies": {},
   "description": "## Build Setup",

@@ -1,9 +1,16 @@
 [
   {
+    "name": "aboutme",
+    "path": "/aboutme",
+    "component": "/Users/ambra/Code/ambraisenberg/pages/aboutme/index.vue",
+    "chunkName": "pages/aboutme/index",
+    "_name": "_3f9047fe"
+  },
+  {
     "name": "index",
     "path": "/",
-    "component": "/Users/ambra/Code/new/pages/index.vue",
+    "component": "/Users/ambra/Code/ambraisenberg/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_bde14750"
+    "_name": "_9a510cb0"
   }
 ]

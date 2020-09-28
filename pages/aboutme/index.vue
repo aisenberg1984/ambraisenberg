@@ -2,25 +2,11 @@
   <div class="container">
     <div>
       <Logo />
-      
-      <p><b></b><b></b></p>
-      
       <h1 class="title">
-        hello there 
+        about me page
       </h1>
-      <p><b></b><b></b></p>
-       <div class="links">
-          <NuxtLink to="/aboutme/index.vue"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-        About Me
       
-
-      </NuxtLink>
-
-     
+      <div class="links">
         <a
           href="https://nuxtjs.org/"
           target="_blank"
@@ -57,7 +43,8 @@ export default {}
 }
 
 .title {
-   animation: 3s appear;
+  
+  animation: 1s appear;
   margin: auto;
   font-family:
     'Quicksand',
