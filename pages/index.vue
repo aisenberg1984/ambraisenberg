@@ -11,7 +11,6 @@
       <p><b></b><b></b></p>
        <div class="links">
           <NuxtLink to="/aboutme/"
-          target="_blank"
           rel="noopener noreferrer"
           class="button--green"
         >
