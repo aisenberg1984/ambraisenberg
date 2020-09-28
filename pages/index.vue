@@ -10,7 +10,7 @@
       </h1>
       <p><b></b><b></b></p>
        <div class="links">
-          <NuxtLink to="/aboutme/index.vue"
+          <NuxtLink to="/aboutme/"
           target="_blank"
           rel="noopener noreferrer"
           class="button--green"
