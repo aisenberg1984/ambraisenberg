@@ -1,8 +1,26 @@
 {
+  "Headerview": {
+    "description": "Auto imported from components/Headerview.vue"
+  },
+  "LazyHeaderview": {
+    "description": "Auto imported from components/Headerview.vue"
+  },
   "Logo": {
     "description": "Auto imported from components/Logo.vue"
   },
   "LazyLogo": {
     "description": "Auto imported from components/Logo.vue"
+  },
+  "Navigationbar": {
+    "description": "Auto imported from components/Navigationbar.vue"
+  },
+  "LazyNavigationbar": {
+    "description": "Auto imported from components/Navigationbar.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/footer.vue"
+  },
+  "LazyFooter": {
+    "description": "Auto imported from components/footer.vue"
   }
 }

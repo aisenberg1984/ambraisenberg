@@ -34,8 +34,8 @@ export default {}
 
 <style>
 .container {
-  margin: 0 auto;
-  min-height: 100vh;
+  margin: auto;
+  min-height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
