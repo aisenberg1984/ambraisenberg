@@ -2,22 +2,11 @@
   <div class="container">
     <div>
       <Logo />
-      
       <h1 class="title">
-        hello there 
+        home page
       </h1>
-      <p><b></b><b></b></p>
-       <div class="links">
-          <NuxtLink to="/aboutme/"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-        About Me
       
-
-      </NuxtLink>
-
-     
+      <div class="links">
         <a
           href="https://nuxtjs.org/"
           target="_blank"
@@ -46,7 +35,7 @@ export default {}
 <style>
 .container {
   margin: 0 auto;
-  min-height: 10vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,7 +43,8 @@ export default {}
 }
 
 .title {
-   animation: 3s appear;
+  
+  animation: 1s appear;
   margin: auto;
   font-family:
     'Quicksand',

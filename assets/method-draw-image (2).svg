@@ -1,0 +1,17 @@
+<svg width="168" height="162" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_1_blur">
+   <feGaussianBlur stdDeviation="2.8" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="170" height="164" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text filter="url(#svg_1_blur)" fill="#1A333F" stroke="#4D2425" stroke-width="0" x="36.875" y="115.5" id="svg_1" font-size="101" font-family="'League Gothic', sans-serif" text-anchor="start" xml:space="preserve" font-weight="normal" font-style="normal">ADI</text>
+  <text fill="#462735" stroke="#4D2425" stroke-width="0" x="29.875" y="118.5" id="svg_2" font-size="101" font-family="'League Gothic', sans-serif" text-anchor="start" xml:space="preserve" font-weight="normal" font-style="normal">ADI</text>
+ </g>
+</svg>
