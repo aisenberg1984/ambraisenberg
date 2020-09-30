@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div :style="{ 'background-image' : 'url(' + require('assets/annie-spratt-wuc-KEIBrdE-unsplash.png') + ')',
+  'background-size':'cover','background-repeat':'no-repeat','animation': '3s appear'}">
     <Headerview/>
 
     <Nuxt/>
@@ -32,7 +33,7 @@ html {
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 10px;
+  margin: 0px;
 }
 
 .button--green {
