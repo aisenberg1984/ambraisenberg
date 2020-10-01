@@ -10,7 +10,7 @@
 
     >
       <v-card-title class= "tealbanner">
-        <strong class="subheading">Get connected with me on social networks!</strong>
+        <strong class="subheading">Connect with me on social networks</strong>
 
         <v-spacer></v-spacer>
 
@@ -41,6 +41,7 @@
 
 .tealbanner{
   background-color: #07504a;
+  height: 4rem;
   }
 .py-2 {
   font-size: .75rem;

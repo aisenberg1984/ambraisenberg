@@ -4,7 +4,8 @@
     <Headerview/>
 <v-content>
     <Nuxt/>
-    /</v-content>
+    /</v-content><br><br><br>
+  
     <Footerview/>
   </div>
 </template>

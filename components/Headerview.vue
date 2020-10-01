@@ -7,7 +7,7 @@
    <v-app-bar
       app
       color= none
-      height="85"
+      height="75"
     >
     <img class="AIlogo" src="@/assets/AI logo.png">
       <v-avatar
@@ -87,6 +87,8 @@ header {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
+  .AILogo {}
+  
   nav {
   padding: 0;
   margin: 0rem;
