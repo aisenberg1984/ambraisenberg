@@ -3,18 +3,21 @@
     "name": "aboutme",
     "path": "/aboutme",
     "component": "/Users/ambra/Code/ambraisenberg/pages/aboutme/index.vue",
-    "chunkName": "pages/aboutme/index"
+    "chunkName": "pages/aboutme/index",
+    "_name": "_3f9047fe"
   },
   {
     "name": "homepage",
     "path": "/homepage",
     "component": "/Users/ambra/Code/ambraisenberg/pages/homepage/index.vue",
-    "chunkName": "pages/homepage/index"
+    "chunkName": "pages/homepage/index",
+    "_name": "_0bb3140b"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/ambra/Code/ambraisenberg/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_9a510cb0"
   }
 ]

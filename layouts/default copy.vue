@@ -2,10 +2,10 @@
   <div :style="{ 'background-image' : 'url(' + require('assets/annie-spratt-wuc-KEIBrdE-unsplash.png') + ')',
   'background-size':'cover','background-repeat':'no-repeat','animation': '3s appear'}">
     <Headerview/>
-<v-content>
+
     <Nuxt/>
-    /</v-content>
-    <Footerview/>
+    
+    
   </div>
 </template>
 

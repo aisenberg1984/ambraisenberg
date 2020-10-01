@@ -1,12 +1,54 @@
 <template>
   <div>
     
-    
-    
     <header>
-      <img class="AIlogo" src="@/assets/AI logo.png"> 
    
-          <Navigationbar/>
+  
+   <v-app-bar
+      app
+      color= none
+      height="85"
+    >
+    <img class="AIlogo" src="@/assets/AI logo.png">
+      <v-avatar
+        class="mr-3"
+        color="grey lighten-5"
+        size="30"
+      >
+        
+      </v-avatar>
+<v-toolbar-title class="toolbar-title">
+        Ambra Isenberg
+      </v-toolbar-title>
+    <v-spacer></v-spacer>
+<nav>
+    <ul>
+      <li>
+        <NuxtLink to="/homepage"
+        class="button--teal">
+        Home
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/aboutme"
+        class="button--teal">About Me</NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/projects"
+        class="button--teal">Projects</NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/resume"
+        class="button--teal"> Resume</NuxtLink>
+      </li>
+      <li>
+        <NuxtLink to="/contact"
+        class="button--teal">Contact</NuxtLink>
+      </li>
+    </ul>
+  </nav>
+  </v-app-bar>
+          
 </header>
       
     
@@ -37,7 +79,7 @@ header {
     'Helvetica Neue',
     Arial,
     sans-serif;
-  font-size: 3rem;
+  font-size: 1rem;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -45,7 +87,47 @@ header {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
+  nav {
+  padding: 0;
+  margin: 0rem;
   
+}
 
+.toolbar-title {
+  margin: 0 0rem;
+  padding: 0rem;
+  font-size: 3rem;
+  color: #07504a;
+
+  }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+li {
+  margin: 0 0rem;
+  padding: 0rem;
+  font-size: 1.25rem;
+}
+
+.button--teal {
+  display: inline-block;
+  border-radius: 4px;
+  border: 0px solid #07504a;
+  color: #07504a;
+  text-decoration: none;
+  padding: 5px 30px;
+  margin-left: 0px;
+}
+
+.button--teal:hover {
+  color: #fff;
+  background-color: #07504a;
+}
 
 </style>

@@ -1,4 +1,10 @@
 {
+  "Footerview": {
+    "description": "Auto imported from components/Footerview.vue"
+  },
+  "LazyFooterview": {
+    "description": "Auto imported from components/Footerview.vue"
+  },
   "Headerview": {
     "description": "Auto imported from components/Headerview.vue"
   },
@@ -16,11 +22,5 @@
   },
   "LazyNavigationbar": {
     "description": "Auto imported from components/Navigationbar.vue"
-  },
-  "Footer": {
-    "description": "Auto imported from components/footer.vue"
-  },
-  "LazyFooter": {
-    "description": "Auto imported from components/footer.vue"
   }
 }
