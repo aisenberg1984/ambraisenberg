@@ -9,35 +9,8 @@
       <body><br><br><br><br> <br><br><br><br><br><br> 
         <p>paragraph 1</p><br><br>
         <p>paragraph 2</p>
-      <br><br><br><br><br><br><br><br><br><br><br><br>
-       <div class="links">
-          <NuxtLink to="/aboutme/"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-        About Me
       
-
-      </NuxtLink>
-
-     
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+       
       <br><br><br><br><br><br></body>
     </div>
     <div><br>
@@ -54,7 +27,7 @@ export default {}
 .container {
   margin: auto;
   min-height: 100vh;
-  display: flex;
+  display: cover;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -76,7 +49,7 @@ export default {}
   display: block;
   font-weight: 300;
   font-size: 500rem;
-  color: #fff;
+  color: #ffffff;
   letter-spacing: 1px;
 }
 

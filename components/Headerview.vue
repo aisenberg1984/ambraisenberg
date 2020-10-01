@@ -7,21 +7,24 @@
    <v-app-bar
       app
       color= none
-      height="75"
+      height="50"
     >
-    <img class="AIlogo" src="@/assets/AI logo.png">
+    <img class="AIlogo" src="@/assets/AI logo.png" height="55px">
+
       <v-avatar
         class="mr-3"
         color="grey lighten-5"
-        size="30"
+        size="20"
       >
         
       </v-avatar>
 <v-toolbar-title class="toolbar-title">
         Ambra Isenberg
       </v-toolbar-title>
+
     <v-spacer></v-spacer>
-<nav>
+    
+    <navbar>
     <ul>
       <li>
         <NuxtLink to="/homepage"
@@ -46,7 +49,7 @@
         class="button--teal">Contact</NuxtLink>
       </li>
     </ul>
-  </nav>
+    </navbar>
   </v-app-bar>
           
 </header>
@@ -87,9 +90,9 @@ header {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-  .AILogo {}
   
-  nav {
+  
+  .navbar {
   padding: 0;
   margin: 0rem;
   
@@ -107,7 +110,6 @@ ul {
   list-style-type: none;
   padding: 0;
   display: flex;
-  justify-content: left;
   flex-wrap: wrap;
 }
 
