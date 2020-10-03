@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        My Projects
+        Resume
       </h1>
       
       <div class="links">

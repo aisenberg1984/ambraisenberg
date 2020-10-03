@@ -7,11 +7,25 @@
     "_name": "_3f9047fe"
   },
   {
+    "name": "Contact",
+    "path": "/Contact",
+    "component": "/Users/ambra/Code/ambraisenberg/pages/Contact/index.vue",
+    "chunkName": "pages/Contact/index",
+    "_name": "_85d8474e"
+  },
+  {
     "name": "projects",
     "path": "/projects",
     "component": "/Users/ambra/Code/ambraisenberg/pages/projects/index.vue",
     "chunkName": "pages/projects/index",
     "_name": "_57b21d97"
+  },
+  {
+    "name": "Resume",
+    "path": "/Resume",
+    "component": "/Users/ambra/Code/ambraisenberg/pages/Resume/index.vue",
+    "chunkName": "pages/Resume/index",
+    "_name": "_0773062a"
   },
   {
     "name": "index",

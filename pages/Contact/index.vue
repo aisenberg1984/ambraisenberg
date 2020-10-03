@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        My Projects
+        Contact Info
       </h1>
       
       <div class="links">
