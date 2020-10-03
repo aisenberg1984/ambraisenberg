@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        home page
+        about me page
       </h1>
       
       <div class="links">
@@ -32,10 +32,10 @@
 export default {}
 </script>
 
-<style>
+<style scoped>
 .container {
-  margin: 0 auto;
-  min-height: 100vh;
+  margin: auto;
+  min-height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,14 +59,14 @@ export default {}
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
+  color: none;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: #526488;
+  color: #fff;
   word-spacing: 5px;
   padding-bottom: 15px;
 }

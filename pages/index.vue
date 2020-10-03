@@ -3,7 +3,7 @@
     <div>
       
       
-      <h1 class="title">
+      <h1 class="title" >
         hello there
       </h1>
       <body><br><br><br><br> <br><br><br><br><br><br> 
@@ -23,14 +23,15 @@
 export default {}
 </script>
 
-<style>
+<style scoped>
 .container {
   margin: auto;
   min-height: 100vh;
-  display: cover;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-left: 30vh
 }
 
 .title {
@@ -48,8 +49,8 @@ export default {}
     sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 500rem;
-  color: #ffffff;
+  font-size: 100px;
+  color: none;
   letter-spacing: 1px;
 }
 

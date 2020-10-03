@@ -7,11 +7,11 @@
     "_name": "_3f9047fe"
   },
   {
-    "name": "homepage",
-    "path": "/homepage",
-    "component": "/Users/ambra/Code/ambraisenberg/pages/homepage/index.vue",
-    "chunkName": "pages/homepage/index",
-    "_name": "_0bb3140b"
+    "name": "projects",
+    "path": "/projects",
+    "component": "/Users/ambra/Code/ambraisenberg/pages/projects/index.vue",
+    "chunkName": "pages/projects/index",
+    "_name": "_57b21d97"
   },
   {
     "name": "index",

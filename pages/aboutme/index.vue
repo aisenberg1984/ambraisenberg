@@ -32,14 +32,15 @@
 export default {}
 </script>
 
-<style>
+<style scoped>
 .container {
   margin: auto;
-  min-height: 10vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
   text-align: center;
+  padding-left: 30vh
 }
 
 .title {
@@ -59,14 +60,14 @@ export default {}
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
+  color: none;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: #526488;
+  color: #fff;
   word-spacing: 5px;
   padding-bottom: 15px;
 }

@@ -2,7 +2,7 @@
   <nav>
     <ul>
       <li>
-        <NuxtLink to="/homepage"
+        <NuxtLink to="/"
         class="button--teal">
         Home
         </NuxtLink>

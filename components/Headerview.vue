@@ -9,25 +9,27 @@
       color= none
       height="50"
     >
-    <img class="AIlogo" src="@/assets/AI logo.png" height="55px">
+    <img class="AIlogo" src="@/assets/Small Logo.png" height="82px">
 
       <v-avatar
         class="mr-3"
         color="grey lighten-5"
         size="20"
       >
+    
+      </v-avatar> 
+     
+      
+    <v-toolbar-title class="toolbar-title">
         
-      </v-avatar>
-<v-toolbar-title class="toolbar-title">
-        Ambra Isenberg
-      </v-toolbar-title>
+     <v-spacer></v-spacer>
 
-    <v-spacer></v-spacer>
+   
     
     <navbar>
     <ul>
       <li>
-        <NuxtLink to="/homepage"
+        <NuxtLink to="/"
         class="button--teal">
         Home
         </NuxtLink>
@@ -49,7 +51,7 @@
         class="button--teal">Contact</NuxtLink>
       </li>
     </ul>
-    </navbar>
+    </navbar> </v-toolbar-title>
   </v-app-bar>
           
 </header>
