@@ -29,7 +29,7 @@ export default {
     '@nuxtjs/vuetify',
 
     // With options
-    ['@nuxtjs/vuetify', { /* module options */ }]
+   // ['@nuxtjs/vuetify', { /* module options */ }]
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)

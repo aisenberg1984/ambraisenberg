@@ -1,0 +1,19 @@
+{
+  "entry": "server.js",
+  "files": {
+    "pages/Contact/index.js": "pages/Contact/index.js",
+    "pages/Resume/index.js": "pages/Resume/index.js",
+    "pages/aboutme/index.js": "pages/aboutme/index.js",
+    "pages/index.js": "pages/index.js",
+    "pages/projects/index.js": "pages/projects/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "pages/Contact/index.js": "pages/Contact/index.js.map",
+    "pages/Resume/index.js": "pages/Resume/index.js.map",
+    "pages/aboutme/index.js": "pages/aboutme/index.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/projects/index.js": "pages/projects/index.js.map",
+    "server.js": "server.js.map"
+  }
+}
