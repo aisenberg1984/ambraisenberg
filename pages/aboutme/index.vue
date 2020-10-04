@@ -41,11 +41,12 @@ export default {}
   align-items: top;
   text-align: center;
   padding-left: 30vh
+  
 }
 
 .title {
   
-  animation: 1s appear;
+  animation: 3s appear;
   margin: auto;
   font-family:
     'Quicksand',

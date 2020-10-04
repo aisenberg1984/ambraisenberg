@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/aisenberg1984/ambraisenberg/issues"
   },
-  "homepage": "https://github.com/aisenberg1984/ambraisenberg#readme"
+  "homepage": "https://github.com/aisenberg1984/ambraisenberg#readme",
+  "engines": {
+    "node": "~14.12.0"
+  }
 }
