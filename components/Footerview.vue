@@ -1,5 +1,5 @@
 <template>
-  <v-footer style="position:fixed;bottom:0;height:auto;margin-top:40px;width:100%;text-align:center"
+  <v-footer style="position:fixed;bottom:0;height:auto;margin-top:0px;width:100%;text-align:center"
     
     dark
     padless
@@ -9,15 +9,11 @@
       class="flex"
       flat
       tile
-      
-
     >
       <v-card-title class= "tealbanner">
           Connect with me!
 
         <v-spacer></v-spacer>
-
-
 
         <v-btn icon>
           <svg style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -50,8 +46,7 @@
 
       <v-card-text class="py-2 white--text text-center">
         {{ new Date().getFullYear() }} — Ambra Isenberg
-      
-      
+           
       </v-card-text>
       
     </v-card>

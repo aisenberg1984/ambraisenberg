@@ -1,10 +1,10 @@
 <template>
-  <div :style="{ 'background-image' : 'url(' + require('assets/annie-spratt-wuc-KEIBrdE-unsplash.png') + ')',
-  'background-size':'cover','background-repeat':'no-repeat','animation': '3s appear'}">
+  <div :style="{ 'background-image' : 'url(' + require('assets/annie-spratt-wuc-KEIBrdE-unsplashcopy.jpg') + ')',
+  'background-size':'cover','background-repeat':'no-repeat','animation': '2s appear'}">
     <Headerview/>
-<v-content >
+<v-main>
     <Nuxt/>
-    </v-content><br><br><br>
+</v-main>
   
    <Footerview/>
   </div>
@@ -23,7 +23,6 @@ html {
     sans-serif;
   font-size: 16px;
   word-spacing: 1px;
-
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
@@ -66,5 +65,55 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+.container {
+  margin: auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 30vh
+}
+
+.title {
+   animation: 3s appear;
+  margin: auto;
+  font-family:
+    'Quicksand',
+    'Source Sans Pro',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+  display: block;
+  font-weight: 300;
+  font-size: 100px;
+  color: none;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 42px;
+  color: #fff;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+
+body {
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+  word-spacing: 5px;
+  padding-bottom: 150px;
+}
+
+
+.links {
+  padding-top: 15px;
 }
 </style>

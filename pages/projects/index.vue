@@ -1,11 +1,17 @@
 <template>
+<div>
   <div class="container">
     <div>
       <Logo />
       <h1 class="title">
-        My Projects
+        My Projects 
+        {{test}}
+
       </h1>
       
+      <button @click="getJoke()">
+          get joke
+      </button>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -24,55 +30,30 @@
           GitHub
         </a>
       </div>
-    </div>
+    </div></div>
   </div>
 </template>
 
 <script>
-export default {}
+import axios from "axios"
+export default {
+  methods: {
+    getJoke: async function() {
+      let joke = await axios.get('https://icanhazdadjoke.com/', { headers: { "Accept": "text/plain" } })
+      console.log("check here", JSON.stringify(joke.data, null, 2))
+      console.log("\n\n\nTHIS: ", this.test)
+      this.test = joke.data
+      return
+    }
+  },
+  data() {
+    return {
+      test: "testing this here"
+    }
+  } 
+}
 </script>
 
 <style scoped>
-.container {
-  margin: auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: top;
-  text-align: center;
-  padding-left: 30vh
-}
 
-.title {
-  
-  animation: 3s appear;
-  margin: auto;
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: none;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #fff;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>

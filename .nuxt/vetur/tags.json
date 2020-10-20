@@ -16,11 +16,5 @@
   },
   "LazyLogo": {
     "description": "Auto imported from components/Logo.vue"
-  },
-  "Navigationbar": {
-    "description": "Auto imported from components/Navigationbar.vue"
-  },
-  "LazyNavigationbar": {
-    "description": "Auto imported from components/Navigationbar.vue"
   }
 }

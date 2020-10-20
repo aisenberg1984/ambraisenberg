@@ -1,31 +1,11 @@
 <template>
-  <div>
-    
-    <header>
-   
-  
-   <v-app-bar
-      app
-      color= none
+    <header
       height="50"
     >
-    <img class="AIlogo" src="@/assets/Small Logo.png" height="82px">
-
-      <v-avatar
-        class="mr-3"
-        color="grey lighten-5"
-        size="20"
-      >
-    
-      </v-avatar> 
-     
-      
-    <v-toolbar-title class="toolbar-title">
-        
+       <h2 class="toolbar-title">ambraisenberg.com</h2>
+            
      <v-spacer></v-spacer>
-
-   
-    
+      
     <navbar>
     <ul>
       <li>
@@ -51,14 +31,9 @@
         class="button--teal">Contact</NuxtLink>
       </li>
     </ul>
-    </navbar> </v-toolbar-title>
-  </v-app-bar>
+    </navbar>
           
 </header>
-      
-    
-    
-  </div>
 </template>
 
 
@@ -95,14 +70,15 @@ header {
   
   
   .navbar {
-  padding: 0;
-  margin: 0rem;
+  padding: 10px;
+  margin: 10px;
   
 }
 
 .toolbar-title {
   margin: 0 0rem;
-  padding: 0rem;
+  font-weight: 200;
+  padding: 1rem;
   font-size: 3rem;
   color: #07504a;
 
@@ -118,7 +94,7 @@ ul {
 li {
   margin: 0 0rem;
   padding: 0rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 .button--teal {
@@ -127,13 +103,15 @@ li {
   border: 0px solid #07504a;
   color: #07504a;
   text-decoration: none;
-  padding: 5px 30px;
+  padding: 30px 30px;
   margin-left: 0px;
+  font-weight: 300;
 }
 
 .button--teal:hover {
-  color: #fff;
-  background-color: #07504a;
+  color: #07504a;
+  background-color: none;
+  font-size: 2rem;
 }
 
 </style>
