@@ -2,7 +2,7 @@
   <div :style="{ 'background-image' : 'url(' + require('assets/annie-spratt-wuc-KEIBrdE-unsplashcopy.jpg') + ')',
   'background-size':'cover','background-repeat':'no-repeat','animation': '2s appear'}">
     <Headerview/>
-<v-main>
+<v-main class="contentbox">
     <Nuxt/>
 </v-main>
   
@@ -35,6 +35,14 @@ html {
 *::after {
   box-sizing: border-box;
   margin: 0px;
+}
+.contentbox{
+  display: block;
+  border-radius: 4px;
+  border: 0px solid #3b8070;
+  text-decoration: none;
+  padding-left: 0px;
+  margin-left: 40rem;
 }
 
 .button--green {
@@ -73,7 +81,8 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-left: 30vh
+  padding-left: 0vh;
+  opacity: 100%;
 }
 
 .title {

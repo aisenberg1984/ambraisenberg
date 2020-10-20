@@ -101,7 +101,7 @@ li {
   display: inline-block;
   border-radius: 4px;
   border: 0px solid #07504a;
-  color: #07504a;
+  color: #ffffff;
   text-decoration: none;
   padding: 30px 30px;
   margin-left: 0px;
@@ -109,7 +109,7 @@ li {
 }
 
 .button--teal:hover {
-  color: #07504a;
+  color: #ffffff;
   background-color: none;
   font-size: 2rem;
 }
