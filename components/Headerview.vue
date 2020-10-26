@@ -1,7 +1,8 @@
 <template>
     <header
       height="50"
-    >
+    ><v-responsive
+      >
        <h2 class="toolbar-title">ambraisenberg.com</h2>
             
      <v-spacer></v-spacer>
@@ -32,7 +33,7 @@
       </li>
     </ul>
     </navbar>
-          
+          </v-responsive>
 </header>
 </template>
 
@@ -85,7 +86,7 @@ header {
   }
 
 ul {
-  list-style-type: none;
+  list-style-type: none ;
   padding: 0;
   display: flex;
   flex-wrap: wrap;

@@ -4,6 +4,7 @@
     class="pa-0 grey lighten-3 flex-wrap align-center fill-height"
     fluid
     tag="section"
+    align-center
   >
     
     <v-row
@@ -19,7 +20,7 @@
         </h1>
 <br>
         <div class="mb-8">
-          Praesent interdum congue mauris, et fringilla lacus pel vitae. 
+          Please feel free to reach out via the form on this page, or directly through one of the methods below. Thanks! 
         </div>
 <br>
         <div class="mb-4">
