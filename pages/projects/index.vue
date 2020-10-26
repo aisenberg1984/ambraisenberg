@@ -5,7 +5,6 @@
       <Logo />
       <h1 class="title">
         Projects 
-        {{test}}
 
       </h1>
       
@@ -35,6 +34,7 @@
     class="pt-12 pb-0 px-0"
     fluid
     tag="section"
+    align-center
   >
     
 <v-container

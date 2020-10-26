@@ -13,35 +13,7 @@
     fluid
     tag="section"
   >
-    <hero
-      class="text-center white--text align-center"
-      height="30vh"
-    >
-      <h1 class="display-2">
-        Heather Nadine's Blog
-      </h1>
-    </hero>
-
-    <v-responsive
-      class="mx-auto"
-      max-width="1280"
-    >
-      <v-container>
-        <v-filter :tabs="tabs" />
-
-        <v-row>
-          <v-col
-            v-for="(post, i) in posts"
-            :key="i"
-            class="d-flex"
-            cols="12"
-            md="4"
-          >
-            <post-card :post="post" />
-          </v-col>
-        </v-row>
-      </v-container>
-    </v-responsive>
+    formatted here
   </v-container>
   </div>
   </div></div>
@@ -49,7 +21,7 @@
 
 <script>
   export default {
-    name: 'Blog',
+    name: 'Resume',
 
     components: {
       PostCard: () => import('@/components/PostCard'),
