@@ -1,7 +1,7 @@
 <template>
   <v-container
     id="contact"
-    class="pa-0 grey lighten-3 flex-wrap align-start fill-height"
+    class="pa-0 grey lighten-3 flex-wrap align-center fill-height"
     fluid
     tag="section"
   >

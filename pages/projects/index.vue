@@ -46,7 +46,7 @@
     
     <v-responsive
       class="mx-auto"
-      max-width="1280"
+      max-width="auto"
     >
       <v-container>
         
