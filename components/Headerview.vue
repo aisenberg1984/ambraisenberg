@@ -15,7 +15,7 @@
         </NuxtLink>
       </li>
       <li>
-        <NuxtLink to="/aboutme"
+        <NuxtLink to="/about"
         class="button--teal">About Me</NuxtLink>
       </li>
       <li>

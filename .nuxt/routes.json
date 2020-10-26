@@ -1,10 +1,17 @@
 [
   {
-    "name": "aboutme",
-    "path": "/aboutme",
-    "component": "/Users/ambra/Code/ambraisenberg/pages/aboutme/index.vue",
-    "chunkName": "pages/aboutme/index",
-    "_name": "_3f9047fe"
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/ambra/Code/ambraisenberg/pages/about/index.vue",
+    "chunkName": "pages/about/index",
+    "_name": "_d737a1b4"
+  },
+  {
+    "name": "blog-post",
+    "path": "/blog-post",
+    "component": "/Users/ambra/Code/ambraisenberg/pages/blog-post/index.vue",
+    "chunkName": "pages/blog-post/index",
+    "_name": "_302bc1f8"
   },
   {
     "name": "Contact",
@@ -26,6 +33,13 @@
     "component": "/Users/ambra/Code/ambraisenberg/pages/Resume/index.vue",
     "chunkName": "pages/Resume/index",
     "_name": "_0773062a"
+  },
+  {
+    "name": "blog-post-SofaTable",
+    "path": "/blog-post/SofaTable",
+    "component": "/Users/ambra/Code/ambraisenberg/pages/blog-post/SofaTable.vue",
+    "chunkName": "pages/blog-post/SofaTable",
+    "_name": "_20087c89"
   },
   {
     "name": "index",

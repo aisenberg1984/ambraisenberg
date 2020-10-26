@@ -1,9 +1,33 @@
 {
+  "Comment": {
+    "description": "Auto imported from components/Comment.vue"
+  },
+  "LazyComment": {
+    "description": "Auto imported from components/Comment.vue"
+  },
   "Footerview": {
     "description": "Auto imported from components/Footerview.vue"
   },
   "LazyFooterview": {
     "description": "Auto imported from components/Footerview.vue"
+  },
+  "Gallery": {
+    "description": "Auto imported from components/Gallery.vue"
+  },
+  "LazyGallery": {
+    "description": "Auto imported from components/Gallery.vue"
+  },
+  "GalleryCard": {
+    "description": "Auto imported from components/GalleryCard.vue"
+  },
+  "LazyGalleryCard": {
+    "description": "Auto imported from components/GalleryCard.vue"
+  },
+  "GalleryCarousel": {
+    "description": "Auto imported from components/GalleryCarousel.vue"
+  },
+  "LazyGalleryCarousel": {
+    "description": "Auto imported from components/GalleryCarousel.vue"
   },
   "Headerview": {
     "description": "Auto imported from components/Headerview.vue"
@@ -16,5 +40,11 @@
   },
   "LazyLogo": {
     "description": "Auto imported from components/Logo.vue"
+  },
+  "PostCard": {
+    "description": "Auto imported from components/PostCard.vue"
+  },
+  "LazyPostCard": {
+    "description": "Auto imported from components/PostCard.vue"
   }
 }

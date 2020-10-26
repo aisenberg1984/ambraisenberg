@@ -1,6 +1,5 @@
 <template>
-  <div 
-  background-size='cover'>
+  <div>
     <Headerview/>
 <v-main>
     <Nuxt/>
@@ -28,7 +27,8 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background-image:url('annie-spratt-wuc-KEIBrdE-unsplashcopy.jpg') 
+  background-color: rgb(207, 204, 200);
+  
 }
 
 *,
@@ -72,7 +72,7 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-left: 10rem;
+  padding-left: 5rem;
   }
 
 .title {
@@ -102,15 +102,28 @@ html {
   word-spacing: 5px;
   padding-bottom: 15px;
 }
+.toolbar-title {
+  margin: 0 0rem;
+  font-weight: 200;
+  padding: 1rem;
+  font-size: 3rem;
+  color: #07504a;
+
+  }
 
 body {
   font-weight: 300;
-  font-size: 16px;
-  color: #fff;
+  font-size: 1.25rem;
+  color: rgb(5, 5, 5);
   word-spacing: 5px;
   height: 100%;
 }
-
+.signature{
+    font-family:'Cedarville Cursive', cursive !important;
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic
+  }
 
 .links {
   padding-top: 15px;
