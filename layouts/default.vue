@@ -117,6 +117,7 @@ body {
   color: rgb(5, 5, 5);
   word-spacing: 5px;
   height: 100%;
+  text-align: center;
 }
 .signature{
     font-family:'Cedarville Cursive', cursive !important;

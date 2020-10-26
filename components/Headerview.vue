@@ -1,12 +1,12 @@
 <template>
     <header
       height="50"
-    ><v-responsive
-      >
+    >
        <h2 class="toolbar-title">ambraisenberg.com</h2>
             
      <v-spacer></v-spacer>
-      
+      <v-responsive
+      >
     <navbar>
     <ul>
       <li>
