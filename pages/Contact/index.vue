@@ -23,10 +23,7 @@
           Please feel free to reach out via the form on this page, or directly through one of the methods below. Thanks! 
         </div>
 <br>
-        <div class="mb-4">
-          <strong>Location</strong> Gardner, KS
-        </div>
-
+        
         <div class="mb-4">
           <strong>Phone</strong> (913) 221-5557
         </div>

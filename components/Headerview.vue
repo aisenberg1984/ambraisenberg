@@ -5,8 +5,7 @@
        <h2 class="toolbar-title">ambraisenberg.com</h2>
             
      <v-spacer></v-spacer>
-      <v-responsive
-      >
+      <v-responsive>
     <navbar>
     <ul>
       <li>
